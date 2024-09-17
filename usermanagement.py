@@ -6,14 +6,11 @@ from typing import Any
 import json
 import os
 
-# Step 1. Make a copy of this Template: https://docs.google.com/spreadsheets/d/1iXBx8pIit6h4WzyUEIFV-n4T48QZ5ole41OKEIsCGX0/template/preview
-# Step 2. Make sure Service Account is added as a user in Airflow UI https://cloud.google.com/composer/docs/composer-2/access-airflow-api#long-service-account-email
-# Step 3. Grant Service Account Viewer permission to the Google Sheet created in Step 1
-# Step 4. Replace with your Google sheet ID created in Step 1.
+# Step 1. Replace with your Google sheet ID
 SHEET_ID = '123testdkYty3fsdfsdfsffdsfsdf24D9bONke0'
-# Step 5. Replace with your valid JSON KEY from the Service Account
+# Step 2. Replace with your valid JSON KEY from the Service Account
 JSON_KEY="service-account-key.json"
-# Step 6. Replace with Composer webserver URL
+# Step 3. Replace with Composer webserver URL
 COMPOSER_WEBSERVER_URL='https://123456-test-url-dot-us-east1.composer.googleusercontent.com'
 
 # Google Sheets setup
